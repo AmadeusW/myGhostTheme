@@ -37,6 +37,7 @@
         var $postContent = $(".post-content");
         $postContent.fitVids();
 
+        /*
         function updateImageWidth() {
             var $this = $(this),
                 contentWidth = $postContent.outerWidth(), // Width of the content
@@ -56,9 +57,9 @@
 
         casperFullImg();
         $(window).smartresize(casperFullImg);
-
+        */ 
         $(".scroll-down").arctic_scroll();
-
+        $(".arctic_scroll").arctic_scroll();
     });
 
     // smartresize
